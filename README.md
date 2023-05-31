@@ -1,3 +1,3 @@
 # pagina corinthians
 
-[Click aqui] (https://ramom-bs.github.io/pagina-corinthians/)
+Site institucional em construção para fins educativos.
