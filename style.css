@@ -18,7 +18,7 @@ nav {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 900;
-    padding: 0px 50px;
+    padding: 0px 90px;
   
   }
 
@@ -50,9 +50,23 @@ nav {
   
   }
 
-.banner-home{
+  /* -- Configurações de Banner -- */
+.banner-home {
     object-fit: cover;
-    height: 350px;
+    height: 200px;
     width: 100%;
 
+}
+
+.welcome-section img {
+    width: 800px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 15%;
+    
+}
+
+.style-text {
+    color:white;
+    
 }
