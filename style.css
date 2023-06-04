@@ -103,6 +103,7 @@ footer{
 }
 .footer-col ul{
   list-style: none;
+  padding-left: 0;
 }
 .footer-col ul li{
   margin: 10px 0;
@@ -167,7 +168,8 @@ footer{
   color: #CD0404;
   border-radius: 3px;
   font-weight: bold;
-  background-color: whitesmoke ;        
+  background-color: whitesmoke;     
+     
 }
 /* Responsivo */
 @media (max-width: 800px) {
