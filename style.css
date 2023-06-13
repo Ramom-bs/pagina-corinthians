@@ -1,10 +1,187 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
+
+/* -- Cor e fonte do site -- */
 body {
-    color: rgb(170, 0, 0);
-    background-color: rgb(0, 0, 0);
+    background-color: #100F0F;
+    font-family: 'Raleway', sans-serif;
+
 }
 
-.ajust-img {
+/* -- Menu Navegação -- */
+nav {
+    height: 110px;
+    background-color: #F8F6F4;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 900;
+    padding: 0px 90px;
+  
+  }
+
+  /* -- Espaçamento do menu -- */
+  nav>ul {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+  
+  }
+
+  /* -- Menu em letras maiúsculas -- */
+  nav>ul>li {
+    font-size: 25px;
+    text-transform: uppercase;
+  
+  }
+
+  /* -- Cor do menu -- */
+  nav>ul>li>a {
+    color: #CD0404;
+    text-decoration: none;
+  
+  }
+
+  /* -- Tamanho da logo -- */
+  nav>img {
+    height: 95%;
+  
+  }
+
+  /* -- Configurações de Banner -- */
+.banner-home {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+
 }
+
+.welcome-section img {
+    width: 800px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 15%;
+    
+}
+
+.style-text {
+    color:white;
+    
+}
+
+
+footer{
+  background-color:  #F8F6F4;
+  padding: 50px 0;
+}
+.container-footer{
+  max-width: 1400px;
+  padding: 0 4%;
+  margin: auto;
+  
+}
+.row-footer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 22px;
+  color: #CD0404;
+  margin-bottom: 20px;
+  font-weight: 500;
+  position: relative;
+  text-transform: uppercase;
+}
+.footer-col ul{
+  list-style: none;
+  padding-left: 0;
+}
+.footer-col ul li{
+  margin: 10px 0;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #CD0404;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #CD0404;
+  padding-left: 10px;
+}
+.footer-col .medias-socias{
+  margin-top: 30px;
+  
+}
+.footer-col .medias-socias a{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  border-radius: 50%;
+  color:#CD0404;
+  border: 1px solid #CD0404;
+  transition: all 0.5s ease;
+}
+.footer-col .medias-socias a i{
+  font-size: 20px;
+}
+
+.footer-col .medias-socias a:hover{
+  color: #CD0404;
+  background-color:#CD0404;
+}
+.footer-col .form-sub input{
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  background-color: #CD0404;
+}
+.footer-col .form-sub input::placeholder{
+  color: white;
+}
+.footer-col .form-sub button{
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px; 
+  font-size: 17px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #CD0404;
+  border-radius: 3px;
+  font-weight: bold;
+  background-color: whitesmoke;     
+     
+}
+/* Responsivo */
+@media (max-width: 800px) {
+  .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+}
+@media (max-width:600px) {
+  .footer-col{
+      width: 100%;
+  }
+}
+

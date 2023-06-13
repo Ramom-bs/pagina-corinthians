@@ -1,3 +1,5 @@
-# pagina corinthians
+# Página Corinthians
 
-[Click aqui] (https://ramom-bs.github.io/pagina-corinthians/)
+Site institucional em construção para fins educativos.
+
+Acesse o site pelo link https://leonardo-talanski.github.io/pagina-corinthians-sccp/ 
